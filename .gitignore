@@ -1,1 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
+
+.DS_Store
+.idea/
+selenium-crm.iml
+.idea/inspectionProfiles/

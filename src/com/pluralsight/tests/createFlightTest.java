@@ -1,5 +1,6 @@
-package com.pluralsight;
+package com.pluralsight.tests;
 
+import com.pluralsight.LearningExamples.*;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -9,14 +10,14 @@ public class createFlightTest {
 
 
     @Test
-    public void createFlight() {
+    public void createFlightTst() {
         assertEquals(newFlight.seats, 150);
         assertEquals(newFlight.passengers, 0);
 
     }
 
     @Test
-    public void addPassengerTest() {
+    public void addPassengerTst() {
         newFlight.add1Passenger(3);
         assertEquals(newFlight.passengers, 3);
     }
