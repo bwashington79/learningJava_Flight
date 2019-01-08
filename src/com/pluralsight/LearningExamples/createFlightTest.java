@@ -15,11 +15,33 @@ public class createFlightTest {
         assertEquals(newFlight.getSeats(), 150);
     }
 
+    //This test verifies the setSeats() setter method.
+    @Test
+    public void setSeatsTst() {
+
+        int newNumOfSeats = 5;
+
+        newFlight.setSeats(newNumOfSeats);
+
+        assertEquals(newFlight.getSeats(), newNumOfSeats);
+    }
+
     //This test verifies the getPassengers() getter method.  It returns the value of passengers when the Flight object is created.
     @Test
     public void numPassenger() {
 
         assertEquals(newFlight.getPassengers(), 0);
+    }
+
+    //This test verifies the setPassengers() setter method.
+    @Test
+    public void setPassengersTst() {
+
+        int newNumOfPassengers = 50;
+
+        newFlight.setPassengers(newNumOfPassengers);
+
+        assertEquals(newFlight.getPassengers(), newNumOfPassengers);
     }
 
 

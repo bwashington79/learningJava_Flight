@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82bb9c33-18aa-4465-9a26-8e0e8380256c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PluralSight/com/pluralsight/tests/createFlightTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/pluralsight/tests/createFlightTest.java" afterPath="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/createFlightTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PluralSight/com/pluralsight/LearningExamples/Flight.class" afterPath="$PROJECT_DIR$/out/production/PluralSight/com/pluralsight/LearningExamples/Flight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/Flight.java" afterPath="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/Flight.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/createFlightTest.java" afterPath="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/createFlightTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -31,13 +30,13 @@
       <file leaf-file-name="Flight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/LearningExamples/Flight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="106" lean-forward="false" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="e#316#317#0" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,8 +45,8 @@
       <file leaf-file-name="createFlightTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/pluralsight/LearningExamples/createFlightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="95" lean-forward="false" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+            <state relative-caret-position="417">
+              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,7 +90,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Flight.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/CalcEngin.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/CalcEngine.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/createFlightTest.java" />
@@ -99,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/CalcEngine.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/tests/createFlightTest.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/MathEquation.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/Flight.java" />
         <option value="$PROJECT_DIR$/src/com/pluralsight/LearningExamples/createFlightTest.java" />
       </list>
@@ -193,6 +192,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.createFlightTest.numPassenger">
+  <component name="RunManager" selected="JUnit.createFlightTest.setPassengersTst">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -291,31 +291,6 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="createFlightTest.addPassengerTst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.LearningExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PluralSight" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pluralsight.LearningExamples" />
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LearningExamples.createFlightTest" />
-      <option name="METHOD_NAME" value="addPassengerTst" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="createFlightTest.avaiableSeatsTst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -366,31 +341,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="createFlightTest.createFlightTst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.LearningExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PluralSight" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.pluralsight.LearningExamples" />
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LearningExamples.createFlightTest" />
-      <option name="METHOD_NAME" value="createFlightTst" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="createFlightTest.numPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -416,20 +366,70 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="createFlightTest.setPassengersTst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.LearningExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PluralSight" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pluralsight.LearningExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LearningExamples.createFlightTest" />
+      <option name="METHOD_NAME" value="setPassengersTst" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="createFlightTest.setSeatsTst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.LearningExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PluralSight" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pluralsight.LearningExamples" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.LearningExamples.createFlightTest" />
+      <option name="METHOD_NAME" value="setSeatsTst" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.createFlightTest.createFlightTst" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.createFlightTest.addPassengerTst" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.createFlightTest.avaiableSeatsTst" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.createFlightTest.availableSeatsTst" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.createFlightTest.numPassenger" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.createFlightTest.avaiableSeatsTst" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.createFlightTest.availableSeatsTst" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.createFlightTest.numPassenger" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.createFlightTest.setSeatsTst" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.createFlightTest.setPassengersTst" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.createFlightTest.numPassenger" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.createFlightTest.availableSeatsTst" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.createFlightTest.avaiableSeatsTst" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.createFlightTest.addPassengerTst" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.createFlightTest.createFlightTst" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.createFlightTest.setPassengersTst" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.createFlightTest.setSeatsTst" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.createFlightTest.numPassenger" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.createFlightTest.availableSeatsTst" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.createFlightTest.avaiableSeatsTst" />
       </list>
     </recent_temporary>
   </component>
@@ -457,28 +457,16 @@
       <workItem from="1546444405048" duration="3497000" />
       <workItem from="1546527474517" duration="34000" />
       <workItem from="1546527524348" duration="6000" />
-      <workItem from="1546915506489" duration="696000" />
+      <workItem from="1546915506489" duration="1639000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="createFlightTest_addPassengerTest - 2018.12.28 at 17h 31m 07s.xml">
-      <configuration name="createFlightTest.addPassengerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createFlightTest_addPassengerTst - 2018.12.28 at 20h 26m 47s.xml">
-      <configuration name="createFlightTest.addPassengerTst" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="createFlightTest_avaiableSeatsTst - 2019.01.07 at 21h 51m 56s.xml">
       <configuration name="createFlightTest.avaiableSeatsTst" configurationId="JUnit" />
     </history-entry>
     <history-entry file="createFlightTest_availableSeatsTst - 2019.01.07 at 21h 53m 30s.xml">
       <configuration name="createFlightTest.availableSeatsTst" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createFlightTest_createFlight - 2018.12.28 at 17h 24m 46s.xml">
-      <configuration name="createFlightTest.createFlight" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="createFlightTest_createFlight - 2018.12.28 at 17h 25m 30s.xml">
-      <configuration name="createFlightTest.createFlight" configurationId="JUnit" />
     </history-entry>
     <history-entry file="createFlightTest_createFlight - 2018.12.28 at 17h 25m 39s.xml">
       <configuration name="createFlightTest.createFlight" configurationId="JUnit" />
@@ -492,9 +480,21 @@
     <history-entry file="createFlightTest_numPassenger - 2019.01.07 at 21h 53m 40s.xml">
       <configuration name="createFlightTest.numPassenger" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="createFlightTest_setPassengersTst - 2019.01.07 at 22h 16m 46s.xml">
+      <configuration name="createFlightTest.setPassengersTst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createFlightTest_setPassengersTst - 2019.01.07 at 22h 17m 05s.xml">
+      <configuration name="createFlightTest.setPassengersTst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createFlightTest_setSeatsTst - 2019.01.07 at 22h 13m 31s.xml">
+      <configuration name="createFlightTest.setSeatsTst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="createFlightTest_setSeatsTst - 2019.01.07 at 22h 15m 38s.xml">
+      <configuration name="createFlightTest.setSeatsTst" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12896000" />
+    <option name="totallyTimeSpent" value="13839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -508,7 +508,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -557,8 +557,8 @@
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -596,8 +596,8 @@
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -635,8 +635,8 @@
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -674,8 +674,8 @@
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,8 +705,8 @@
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -726,14 +726,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/createFlightTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/Flight.java" />
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/CalcEngine.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/LearningExamples/MathEquation.java" />
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/LearningExamples/CalcEngine.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -743,23 +735,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PluralSight.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/LearningExamples/Flight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="106" lean-forward="false" selection-start-line="11" selection-start-column="106" selection-end-line="11" selection-end-column="106" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#316#317#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pluralsight/LearningExamples/createFlightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="95" lean-forward="false" selection-start-line="17" selection-start-column="95" selection-end-line="17" selection-end-column="95" />
+        <state relative-caret-position="417">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

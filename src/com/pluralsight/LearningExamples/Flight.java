@@ -14,8 +14,21 @@ package com.pluralsight.LearningExamples;
         return seats;
     }
 
+     //I understand setter/Mutator now.  Typically fields are private.  The way we modify the value is  through a setter
+     public void setSeats(int seats){
+
+        this.seats = seats;
+     }
+
+     //I understand getter/Accessor now.  Typically fields are private.  The way we expose through a getter
      public int getPassengers(){
          return passengers;
+     }
+
+     //I understand setter/Mutator now.  Typically fields are private.  The way we modify the value is  through a setter
+     public void setPassengers(int passengers){
+
+         this.passengers = passengers;
      }
 
 
